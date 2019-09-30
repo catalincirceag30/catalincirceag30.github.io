@@ -1,0 +1,71 @@
+/**
+ 
+  Use animations here. Useful resources on http://docs.codacloud.net
+ 
+**/
+ 
+ 
+.head {
+  /* TODO */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+}
+ 
+.body {
+  /* TODO */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+}
+ 
+.left.hand {
+  /* TODO */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+}
+ 
+.right.hand {
+  /* TODO */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+}
+ 
+.left.foot {
+  /* TODO */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+}
+ 
+.right.foot {
+  /* TODO */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+}
+ 
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+ 
+@keyframes bounce-2 {
+  from {
+    transform: translateY(0);
+  }
+ 
+  30% {
+    transform: translateY(-80px);
+  }
+ 
+  50% {
+    transform: translateY(0);
+  }
+ 
+  to {
+    transform: translateY(0);
+  }
+}
